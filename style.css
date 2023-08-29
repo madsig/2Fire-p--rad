@@ -1,0 +1,12 @@
+#app {
+    display: grid;
+    grid-template-columns: repeat(7, 40px);
+    grid-template-rows: repeat(6, 40px);
+}
+
+.box {
+    border: solid black 2px;
+    padding: 6px;
+    text-align: center;
+    background-color: grey;
+}
