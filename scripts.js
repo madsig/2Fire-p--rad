@@ -49,7 +49,7 @@ function handleClick(event) {
 }
 
 // ikke mitt |
-//           v
+//     :(    v
 
 function checkForWin() {
     // Check for horizontal wins
