@@ -52,7 +52,6 @@ function handleClick(event) {
 //     :(    v
 
 function checkForWin() {
-    // Check for horizontal wins
     for (let row = 0; row < 6; row++) {
         for (let col = 0; col < 4; col++) {
             let cell = letter[col] + number[row];
@@ -65,7 +64,6 @@ function checkForWin() {
         }
     }
 
-    // Check for vertical wins
     for (let col = 0; col < 7; col++) {
         for (let row = 0; row < 3; row++) {
             let cell = letter[col] + number[row];
@@ -78,7 +76,6 @@ function checkForWin() {
         }
     }
 
-    // Check for diagonal wins (both directions)
     for (let col = 0; col < 4; col++) {
         for (let row = 0; row < 3; row++) {
             let cell = letter[col] + number[row];
@@ -103,5 +100,5 @@ function checkForWin() {
         }
     }
 
-    return false; // No win found
+    return false;
 }
